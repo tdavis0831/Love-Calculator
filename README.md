@@ -4,7 +4,7 @@
 
 #set var to store the names that are entered
 person1=(input("Type your name:"))
-person2=(input("Type your name: "))
+person2=(input("Type their name: "))
 
 #var set to store the combined names in order to convert the letter to lower case so they can be counted without running an error. Using Count function I am able to run through each individual letter to see how many times it appears in the varaible lower_names. I then set another variable which adds the total from each varaible from the word true
 combined_names=person1+person2
